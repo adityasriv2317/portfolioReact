@@ -2,7 +2,13 @@ import React from 'react'
 
 import './intro.css'
 
-const intro = ({myName}, {myImage}) => {
+const intro = ({myName}) => {
+
+  function openInNewTab(i) {
+    let url = ['https://www.instagram.com', 'https://www.linkedin.com', 'https://www.github.com']
+    window.open(url[i])
+  }
+
   return (
     <div className='mainCont'>
 
@@ -28,6 +34,12 @@ const intro = ({myName}, {myImage}) => {
       <div className="introAction">
         <div className="myProj">My Projects</div>
         <div className="contactMe">Contact Me</div>
+      </div>
+
+      <div className="socials">
+        <i class="fa-brands fa-instagram" onClick={() =>openInNewTab(0)}></i>
+        <i class="fa-brands fa-linkedin-in" onClick={()=>openInNewTab(1)}></i>
+        <i class="fa-brands fa-github" onClick={()=>openInNewTab(2)}></i>
       </div>
 
     </div>

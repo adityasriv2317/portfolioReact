@@ -11,7 +11,7 @@
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     backdrop-filter: blur(10);
 
-    padding-top: 1vw;
+    padding-top: 1vh;
   
     color: white;
     position: fixed;
@@ -21,7 +21,7 @@
   }
   
   .logo{
-    font-size: 2vw;
+    font-size: 1em;
     font-family: 'Merienda', cursive;
     text-shadow: 0 0 10px skyblue;
     
@@ -42,7 +42,7 @@
 
   .navlinks{
     display: flex;
-    font-size: 1.5vw;
+    font-size: 1em;
   }
 
   .navlinks ul{
@@ -59,7 +59,7 @@
     padding-top: 0.8vw;
     padding-bottom: 0.8vw;
 
-    margin: 0.2vw 1vw 0.2vw 0;
+    margin: 0.2vh 1vw 0.2vh 0;
 
     border-radius: 1rem;
 
@@ -107,7 +107,7 @@
 
 
   .menu{
-    font-size: 1vw;
+    font-size: 1em;
     cursor: pointer;
     display: none;
   }
