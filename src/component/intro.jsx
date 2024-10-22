@@ -6,6 +6,7 @@ const intro = ({myName}, {myImage}) => {
   return (
     <div className='mainCont'>
 
+      <div className="up">
         <div className="details">
           <span className='start'>
             Hello, my name is
@@ -22,6 +23,7 @@ const intro = ({myName}, {myImage}) => {
         <div className="imag">
           <img src="../src/assets/tod.jpg" alt="" />
         </div>
+      </div>
 
 
     </div>
