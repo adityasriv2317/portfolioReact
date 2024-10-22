@@ -78,16 +78,16 @@
   }
   .navlinks ul li:last-child a{
     background-color: white;
-    color: blue;
+    color: rgb(100, 0, 188);
     font-weight: 600;
   }
 
   .navlinks a:hover{
-    text-decoration: underline;
+    text-decoration: none;
   }
   .navlinks ul li:hover, .navlinks ul li:hover a{
     background-color: rgb(110, 122, 138);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     cursor: pointer;
   }
   .navlinks ul li:hover{

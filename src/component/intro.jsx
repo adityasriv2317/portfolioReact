@@ -25,6 +25,10 @@ const intro = ({myName}, {myImage}) => {
         </div>
       </div>
 
+      <div className="introAction">
+        <div className="myProj">My Projects</div>
+        <div className="contactMe">Contact Me</div>
+      </div>
 
     </div>
   )

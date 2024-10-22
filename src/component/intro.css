@@ -45,3 +45,38 @@
 
     border-radius: 50% 50%;
 }
+
+.introAction{
+    display: flex;
+    padding-left: 5vw;
+
+    color: white;
+}
+
+.introAction div{
+    background-color: rgb(100, 0, 188);
+    margin-right: 1vw;
+    font-weight: 600;
+    font-size: 1.5vw;
+
+    box-shadow: 0 0 5px rgba(150, 95, 199, 0.844);
+
+    width: 8vw;
+    text-align: center;
+
+    margin-top: 1vw;
+    padding: 1vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+
+    border-radius: 1rem;
+}
+
+.introAction div:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: rgb(100, 0, 188);
+
+    cursor: pointer;
+}
+
