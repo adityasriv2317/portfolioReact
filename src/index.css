@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 
-  background-color: #213d55;
+  /* background-color: #213d55; */
   color: white;
+  background-repeat: repeat-y;
+  background-size: cover;
   font-family: 'Merienda', cursive;
 }

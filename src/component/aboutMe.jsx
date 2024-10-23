@@ -16,8 +16,6 @@ const aboutMe = () => {
             and visually appealing. I believe in cooperating and interacting with new people to gain useful
             insigts and grow collaboratively
         </p>
-
-        <div className="clients">My Clients</div>
     </div>
   )
 }

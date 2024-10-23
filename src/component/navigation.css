@@ -7,21 +7,20 @@
     align-items: center;
     
     padding: 1vh 5vw;
-    /* background-color: #91b1e0; */
+    background-color: rgba(100, 0, 188, 0.01);
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
-    backdrop-filter: blur(10);
+    backdrop-filter: blur(4px);
 
     padding-top: 1vh;
   
     color: white;
     position: fixed;
     width: 92%;
-    top: 0;
-    z-index: 1000;
+    z-index: 15;
   }
   
   .logo{
-    font-size: 1em;
+    font-size: 2vw;
     font-family: 'Merienda', cursive;
     text-shadow: 0 0 10px skyblue;
     
@@ -86,7 +85,7 @@
     text-decoration: none;
   }
   .navlinks ul li:hover, .navlinks ul li:hover a{
-    background-color: rgb(110, 122, 138);
+    background-color: rgb(133, 73, 189);
     /* text-decoration: underline; */
     cursor: pointer;
   }
