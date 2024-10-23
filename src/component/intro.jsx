@@ -22,7 +22,8 @@ const intro = ({myName}) => {
           </span>
 
           <span className='after'>
-          I'm a web developer specializing in React.js and UI design
+          I'm a web developer specializing in React.js
+          and UI/UX design
           </span>
         </div>
 

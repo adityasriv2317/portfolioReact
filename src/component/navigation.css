@@ -91,7 +91,7 @@
     cursor: pointer;
   }
   .navlinks ul li:hover{
-    box-shadow: 0 0 2px rgb(0, 98, 255);
+    box-shadow: 0 0 3px yellowgreen;
   }
 
   .navlinks ul li:last-child:hover, .navlinks ul li:last-child:hover a{

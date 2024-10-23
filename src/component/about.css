@@ -4,10 +4,11 @@
     align-items: center;
 
     margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
-.about hr{
-    margin: 0 5vw 3vw 5vw;
+.about hr, .projects hr{
+    margin: 0 5vw 4vw 5vw;
     border-radius: 1rem;
     background-color: white;
     height: 2px;
@@ -16,16 +17,17 @@
 
 .moto{
     font-family: "Concert One", sans-serif;
-    font-size: 2.5em;
+    font-size: 4vw;
     text-shadow: 0 0 10px rgb(100, 0, 188);
 }
 
 .data{
     text-justify: newspaper;
-    font-size: 1em;
+    font-size: 1.5vw;
+    text-align: justify;
 
     max-width: 80vw;
-    margin-top: 2vh;
+    margin-top: 2vw;
     margin-left: 10vw;
     margin-right: 10vw;
 }
