@@ -39,4 +39,17 @@
 
 .myProjects h3{
     font-family: "Concert One", sans-serif;
+    font-weight: 400;
+}
+.myProjects b{
+    font-family: "Concert One", sans-serif;
+    font-weight: 600;
+}
+
+.pdata{
+    padding-top: 10px;
+    margin-right: 4vw;
+    font-size: 1.2vw;
+
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
 }

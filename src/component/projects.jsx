@@ -17,9 +17,21 @@ const projects = () => {
         <div className="myProjects">
             <ul>
                 <li>
-                    <h3>Tourism Website</h3>
+                    <h3><b>FlyUp</b> - Tourism Website</h3>
+                    <div className="pdata">
+                        A website for exploring various places and purchasing travel packages and services online. Allowing users to gather
+                        information.
+                    </div>
+
                 </li>
-                <li>Project 2</li>
+
+                <li>
+                    <h3><b>XERO</b> - Game Store Website</h3>
+                    <div className="pdata">
+                        An online game purchasing website that displays top games. The website also allows users to rate games and create
+                        their account on the website. The game store has a password and email validity system to ensure security on both ends.
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
