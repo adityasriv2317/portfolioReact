@@ -12,7 +12,9 @@ hr{
     border-radius: 1rem;
     background-color: white;
     height: 2px;
-    max-width: 90vw;;
+    max-width: 90vw;
+
+    box-shadow: 0 0 10px rgb(167, 66, 255);
 }
 
 .moto{

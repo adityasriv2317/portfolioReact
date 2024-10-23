@@ -10,7 +10,7 @@ const intro = ({myName}) => {
   }
 
   return (
-    <div className='mainCont'>
+    <div className='mainCont' id='home'>
 
       <div className="up">
         <div className="details">
@@ -37,7 +37,7 @@ const intro = ({myName}) => {
         <div className="contactMe">Contact Me</div>
       </div>
 
-      <div className="socials">
+      <div className="socials" id='about'>
         <i class="fa-brands fa-instagram" onClick={() =>openInNewTab(0)}></i>
         <i class="fa-brands fa-linkedin-in" onClick={()=>openInNewTab(1)}></i>
         <i class="fa-brands fa-github" onClick={()=>openInNewTab(2)}></i>

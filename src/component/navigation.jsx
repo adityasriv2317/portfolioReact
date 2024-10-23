@@ -14,11 +14,21 @@ const header = ({myName}) => {
 
         <nav className='navlinks'>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li onClick={() =>{
+              document.getElementById('home').scrollIntoView()
+            }}><a href="#home">Home</a></li>
+            <li onClick={() =>{
+              document.getElementById('about').scrollIntoView()
+            }}><a href="#about">About</a></li>
+            <li onClick={() =>{
+              document.getElementById('projects').scrollIntoView()
+            }}><a href="#projects">Projects</a></li>
+            <li onClick={() =>{
+              document.getElementById('skills').scrollIntoView()
+            }}><a href="#skills">Skills</a></li>
+            <li onClick={() =>{
+              document.getElementById('sontact').scrollIntoView()
+            }}><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
 

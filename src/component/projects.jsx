@@ -33,11 +33,7 @@ const projects = () => {
                             </div>
 
                             <div className="ref">
-                                <img className='active' src="../src/assets/flyup/f1.png" alt="" />
-                                <img src="../src/assets/flyup/f3.png" alt="" />
-                                <img src="../src/assets/flyup/f4.png" alt="" />
-                                <img src="../src/assets/flyup/f5.png" alt="" />
-                                <img src="../src/assets/flyup/f6.png" alt="" />
+                                <img src="../src/assets/flyup/f1.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -68,16 +64,13 @@ const projects = () => {
                             </div>
 
                             <div className="ref">
-                                <img className='active' src="../src/assets/xero/x1.png" alt="" />
-                                <img src="../src/assets/xero/x2.png" alt="" />
-                                <img src="../src/assets/xero/x3.png" alt="" />
-                                <img src="../src/assets/xero/x4.png" alt="" />
+                                <img src="../src/assets/xero/x1.png" alt="" />
                             </div>
                         </div>
                     </div>
 
                     <span>Project Links:</span>
-                    <div className="links">
+                    <div className="links" id='skills'>
                         <i class="fa-brands fa-github" onClick={()=>window.open('https://github.com/adityasriv2317/GamingWebsite')}></i>
                         <i class="fa-solid fa-globe" onClick={()=>window.open('https://xerogaming.vercel.app')}
                         ></i>

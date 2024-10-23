@@ -6,6 +6,7 @@ import Intro from './component/intro'
 import AboutMe from './component/aboutMe'
 import Projects from './component/projects'
 import Skills from './component/skills'
+import Contact from './component/contact'
 
 // import img from "./assets/tod.jpg"
 
@@ -19,6 +20,7 @@ const App = () => {
       <AboutMe />
       <Projects />
       <Skills />
+      <Contact />
     </div>
   )
 }

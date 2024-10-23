@@ -3,8 +3,10 @@
   padding: 0;
 
   /* background-color: #213d55; */
-  color: white;
+  color: rgb(255, 255, 255);
   background-repeat: repeat-y;
   background-size: cover;
   font-family: 'Merienda', cursive;
+
+  scroll-behavior: smooth;
 }
