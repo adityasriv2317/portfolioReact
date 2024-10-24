@@ -132,8 +132,6 @@
         gap: 8vh;
         text-align: center;
         align-items: center;
-
-        
     }
 
     .intro .up{
@@ -144,6 +142,7 @@
       }
     .start{
         font-size: 2em;
+        margin-top: 12vh;
     }
     .myname{
         font-size: 5em;

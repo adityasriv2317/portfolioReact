@@ -127,11 +127,11 @@ button:hover i{
         flex-direction: column;
     }
     .cdetails{
-        margin-bottom: 5vw;
+        margin-bottom: 8vw;
     }
     button{
 
-        bottom: -273vh;
+        /* bottom: -273vh; */
 
         right: 20vw;
         width: 35px;
@@ -160,7 +160,7 @@ button:hover i{
     }
     .send {
         margin-bottom: 2vh;
-        height: 10vh;
+        height: 12vh;
     }
 
     .send textarea{

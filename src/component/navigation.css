@@ -116,6 +116,11 @@
   }
 
   @media (max-width: 640px) {
+
+    .logo {
+      font-size: 1em;
+    }
+
     .menu{
       display: block;
     }
