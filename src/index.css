@@ -6,7 +6,10 @@
   color: rgb(255, 255, 255);
   background-repeat: repeat-y;
   background-size: cover;
-  font-family: 'Merienda', cursive;
 
   scroll-behavior: smooth;
+}
+
+.contactMe{
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }

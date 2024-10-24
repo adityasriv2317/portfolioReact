@@ -1,0 +1,26 @@
+.contactMe{
+    margin-top: 4vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1vw;
+
+    padding-bottom: 4vw;
+}
+
+.cdetails{
+    text-align: center;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+    background-color: rgba(231, 182, 255, 0.379);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.686);
+    padding: 4vw;
+
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}

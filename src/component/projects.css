@@ -92,7 +92,8 @@
 }
 
 .myProjects ul li span{
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    /* font-family: "Roboto", Arial, Helvetica, sans-serif;
+     */
     font-size: 1.5vw;
 
     margin-left: 1vw;
@@ -123,6 +124,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    font-family: 'Merienda', cursive;
 
     margin-top: 3vw;
     margin-bottom: 0;
