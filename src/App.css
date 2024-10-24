@@ -1,5 +1,5 @@
 .App{
-    background-image: url('assets/a.jpeg');
+    background-image: url('images/a.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -23,7 +23,7 @@ a#goup i{
 }
 
 .App .contact{
-    background-image: url('assets/matrix.jpg');
+    background-image: url('images/matrix.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
