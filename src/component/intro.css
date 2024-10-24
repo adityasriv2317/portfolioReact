@@ -135,6 +135,13 @@
 
         
     }
+
+    .intro .up{
+        text-align: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        max-width: 90vw;
+      }
     .start{
         font-size: 2em;
     }
@@ -164,9 +171,11 @@
     }
     .introAction div{
         margin-right: 0;
-        width: 8vh;
+        width: 13vh;
         padding: 1vh;
-        font-size: 1vh;
+        font-size: 1.5vh;
+
+        margin-bottom: 3vh;
     }
 
     .socials i{
