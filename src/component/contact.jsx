@@ -23,12 +23,12 @@ const Contact = () => {
       <div className="moto">Contact Me</div>
 
       <div className="contactMe">
-        <div className="cdetails">
+        <div className="cdetails" id='tile'>
           <h2><b>Email :</b> adityaxia9237@gmail.com</h2>
           <h2><b>Ph. Number :</b> +91 1234567890</h2>
         </div>
 
-        <div className="send">
+        <div className="send" id='tile'>
           <h1>Submit a Feedback</h1>
           <form action="">
             <input type="email" name='umail' id='umail' placeholder='Email Address' required 

@@ -108,7 +108,7 @@
 
 .ref{
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     width: 30vw;
     height: 18vw;
@@ -133,8 +133,9 @@
 
 
 .mid img{
-    width: 30vw;
-    height: 18vw;
+    /* width: 28em;
+    height: 15em; */
+    object-fit: contain;
 
     margin-left: 0;
     z-index: 8;

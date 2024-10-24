@@ -125,3 +125,97 @@
 .socials  i:nth-child(3):hover{
     background-color: black;
 }
+
+@media (max-width: 640px){
+    .up{
+        flex-direction: column;
+        gap: 8vh;
+        text-align: center;
+        align-items: center;
+
+        
+    }
+    .start{
+        font-size: 2em;
+    }
+    .myname{
+        font-size: 5em;
+    }
+    .after{
+        font-size: 1.5em;
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+
+    .introAction{
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imag img{
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .introAction{
+        gap: 3vh;
+    }
+    .introAction div{
+        margin-right: 0;
+        width: 8vh;
+        padding: 1vh;
+        font-size: 1vh;
+    }
+
+    .socials i{
+        width: 3vh;
+        height: 3vh;
+        padding-top: 1vh;
+        object-fit: fill;
+        text-align: center;
+        font-size: 2.5vh;
+
+        margin-bottom: 10vh;
+    }
+
+    .about .data, .projects .data{
+        font-size: 1em;
+        margin-bottom: 10vh;
+    }
+
+    .projects .pdata{
+        font-size: 1.3em;
+    }
+
+    .about .moto, .projects .moto, .skills .moto, .contact .moto{
+        font-size: 2em;
+        margin-bottom: 2vh;
+    }
+
+    .about hr, .projects hr, .skills hr, .contact hr{
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+    }
+
+    .projects .mid{
+        flex-direction: column;
+    }
+
+    .projects .mid ul{
+        display: flex;
+        flex-direction: row; 
+
+        margin-bottom: 2vh;
+    }
+
+    .mid img{
+        width: 18vh;
+        height: 10vh;
+    }
+
+    .projects .links i{
+        font-size: 2em;
+    }
+}

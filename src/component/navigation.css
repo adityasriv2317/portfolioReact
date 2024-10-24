@@ -140,9 +140,20 @@
     }
     .active ul li{
       margin-bottom: 1vw;
+      text-align: center;
     }
     .active ul li a{
-      text-decoration: none
+      text-decoration: none;
+    }
+
+    .active ul li:last-child{
+      margin-top: 20px;
+      background-color: white;
+      padding: 4px;
+      border-radius: 1rem;
+    }
+    .active ul li:last-child a{
+      color: purple;
     }
 
   }

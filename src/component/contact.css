@@ -130,6 +130,32 @@ button:hover i{
         margin-bottom: 5vw;
     }
     button{
-        right: 32vw;
+        right: 25vw;
+    }
+
+    #tile{
+        width: 75vw;
+    }
+
+    .cdetails h2{
+        font-size: 1em;
+    }
+    .send h1{
+        font-size: 2em;
+    }
+    .send form input{
+        display: flex;
+        flex-direction: column;
+
+        font-size: 2em;
+    }
+    .send {
+        margin-bottom: 2vh;
+        height: 10vh;
+    }
+
+    .send textarea{
+        margin-top: 1vh;
+        width: 48vw;
     }
 }
