@@ -28,7 +28,7 @@ const intro = ({myName}) => {
         </div>
 
         <div className="imag">
-          <img src="../src/assets/tod.jpg" alt="" />
+          <img src="../src/images/tod.jpg" alt="" />
         </div>
       </div>
 

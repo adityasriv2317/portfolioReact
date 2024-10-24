@@ -10,19 +10,19 @@ const skills = () => {
 
         <div className="mySkills">
           <span>
-            <img src="../src/assets/skills/html.png" alt="" />
+            <img src="../src/images/skills/html.png" alt="" />
             HTML
           </span>
           <span>
-            <img src="../src/assets/skills/css.png" alt="" />
+            <img src="../src/images/skills/css.png" alt="" />
             CSS
           </span>
           <span>
-            <img src="../src/assets/skills/js.png" alt="" />
+            <img src="../src/images/skills/js.png" alt="" />
             JavaScript
           </span>
           <span>
-            <img src="../src/assets/skills/react.png" alt="" />
+            <img src="../src/images/skills/react.png" alt="" />
             ReactJS
           </span>
         </div>

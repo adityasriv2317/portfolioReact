@@ -33,7 +33,7 @@ const projects = () => {
                             </div>
 
                             <div className="ref">
-                                <img src="../src/assets/flyup/f1.png" alt="" />
+                                <img src="../src/images/flyup/f1.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const projects = () => {
                             </div>
 
                             <div className="ref">
-                                <img src="../src/assets/xero/x1.png" alt="" />
+                                <img src="../src/images/xero/x1.png" alt="" />
                             </div>
                         </div>
                     </div>
