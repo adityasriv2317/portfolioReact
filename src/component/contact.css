@@ -130,7 +130,16 @@ button:hover i{
         margin-bottom: 5vw;
     }
     button{
-        right: 25vw;
+
+        bottom: -273vh;
+
+        right: 20vw;
+        width: 35px;
+        height: 35px;
+        padding: 2px;
+    }
+    button i{
+        font-size: 2em;
     }
 
     #tile{
