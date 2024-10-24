@@ -10,14 +10,13 @@ const contact = () => {
         <div className="contactMe">
           <div className="cdetails">
             <h2><b>Email :</b> adityaxia9237@gmail.com</h2>
-            <h2><b>Number :</b> +91 1234567890</h2>
+            <h2><b>Mo. Number :</b> +91 1234567890</h2>
           </div>
 
           <div className="send">
-            <h1>Submit a feedback</h1>
+            <h1>Submit a Feedback</h1>
             <form action="">
-              <label htmlFor="umail"></label>
-              <input type="email" name='umail' id='umail'/>
+              <input type="email" name='umail' id='umail' placeholder='Email Address'/>
             </form>
           </div>
         </div>
