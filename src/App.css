@@ -8,6 +8,26 @@
     background-color: black;
 }
 
+.App a#goup{
+    padding: 4px 10px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+
+    border-radius: 50% 50%;
+}
+
+a#goup i{
+    color: black;
+}
+
+.App .contact{
+    background-image: url('assets/matrix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contactMe{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }

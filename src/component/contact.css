@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 1vw;
+    /* gap: 1vw; */
 
     padding-bottom: 4vw;
 }
@@ -35,10 +35,11 @@
 
 .cdetails h2{
     font-weight: 300;
+    font-size: 2vw;
 }
 
 .send{
-    margin-top: 0;
+    font-size: 2vw;
     height: 12vw;
     width: 30vw;
 
@@ -53,7 +54,8 @@
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     font-weight: 500;
-    margin-top: -3vw;
+    margin-top: -2vw;
+    font-size: 3vw;
 }
 
 .send form{
@@ -62,7 +64,72 @@
     flex-direction: column;
 }
 
-.send form input{
+.send form input, #ufeed, button{
     border: none;
-    
+    outline: none;
+    background: transparent;
+    display: inline;
+
+    margin-bottom: 1.7vw;
+    font-size: 1.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 0.5vw;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.send form input::placeholder{
+    color: white;
+}
+input#ufeed{
+    text-wrap: wrap;
+    max-width: min-content;
+}
+#ufeed::placeholder{
+    color: white;
+    padding-top: 15px;
+}
+
+button{
+    padding: 1vw;
+    color: white;
+    background-color: rgba(172, 78, 255, 0.707);
+
+    margin-top: 2vw;
+    margin-bottom: 0;
+    position: absolute;
+    right: 10vw;
+
+    text-align: center;
+    padding: 0;
+    font-size: 2vw;
+    font-weight: 500;
+    border: none;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50% 50%;
+
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+}
+
+button:hover{
+    background-color: white;
+    font-weight: 500;
+    padding: 2px;
+    border: 2px solid rgb(100, 0, 188);
+}
+button:hover i{
+    color: rgb(68, 68, 68);
+}
+
+@media (max-width: 640px) {
+    .contactMe{
+        flex-direction: column;
+    }
+    .cdetails{
+        margin-bottom: 5vw;
+    }
+    button{
+        right: 32vw;
+    }
 }

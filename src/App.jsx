@@ -21,6 +21,8 @@ const App = () => {
       <Projects />
       <Skills />
       <Contact />
+
+      <a id='goup' href='#'><i class="fa-solid fa-arrow-up"></i></a>
     </div>
   )
 }

@@ -106,10 +106,43 @@
     box-shadow: 0 0 2px white;
   }
 
-
-
   .menu{
     font-size: 1em;
     cursor: pointer;
     display: none;
+  }
+  .menuBar{
+    display: none;
+  }
+
+  @media (max-width: 640px) {
+    .menu{
+      display: block;
+    }
+    .navlinks{
+      display: none;
+    }
+
+    .active{
+      display: block;
+      position: absolute;
+
+      top: 6vh;
+      right: 0;
+      padding: 22px;
+
+      background-color: rgba(128, 0, 128, 0.8);
+    }
+
+    .active ul{
+      transition: all 0.5s ease;
+      list-style: none;
+    }
+    .active ul li{
+      margin-bottom: 1vw;
+    }
+    .active ul li a{
+      text-decoration: none
+    }
+
   }
