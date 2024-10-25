@@ -33,8 +33,12 @@ const intro = ({myName}) => {
       </div>
 
       <div className="introAction">
-        <div className="myProj">My Projects</div>
-        <div className="contactMe">Contact Me</div>
+        <div className="myProj" onClick={() =>{
+              document.getElementById('projects').scrollIntoView()
+            }}>My Projects</div>
+        <div className="contactMe" onClick={() =>{
+              document.getElementById('contact').scrollIntoView()
+            }}>Contact Me</div>
       </div>
 
       <div className="socials" id='about'>

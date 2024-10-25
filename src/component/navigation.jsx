@@ -42,7 +42,7 @@ const header = ({myName}) => {
               document.getElementById('skills').scrollIntoView()
             }}><a href="#skills">Skills</a></li>
             <li onClick={() =>{
-              document.getElementById('sontact').scrollIntoView()
+              document.getElementById('contact').scrollIntoView()
             }}><a href="#contact">Contact Me</a></li>
           </ul>
         </nav>
