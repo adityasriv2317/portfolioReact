@@ -16,7 +16,7 @@ const projects = () => {
 
         <div className="myProjects">
             <ul>
-                <li>
+                <li className='projectCard'>
                     <h3><b>FlyUp</b> - Tourism Website</h3>
                     <div className="pdata">
                         A website for exploring various places and purchasing travel packages and services online. Allowing users to gather
@@ -47,7 +47,7 @@ const projects = () => {
                     </div>
                 </li>
 
-                <li>
+                <li className='projectCard'>
                     <h3><b>XERO</b> - Game Store Website</h3>
                     <div className="pdata">
                         An online game purchasing website that displays top games. The website also allows users to rate games and create

@@ -32,12 +32,12 @@ a#goup i{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-.about .moto, .about .data, .skills, .projects{
-    animation-name: Appearing;
-    animation-timeline: view(10% 0%);
+.App .moto, .App .data, .App .projectCard, .App .mySkills{
+    animation-name: appearingUp;
+    animation-timeline: view(70% 0%);
 }
 
-@keyframes Appearing {
+@keyframes appearingUp {
     from{
         opacity: 0.2;
         transform: translateY(20vw) scale(0);
