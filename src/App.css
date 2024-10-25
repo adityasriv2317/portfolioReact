@@ -31,3 +31,19 @@ a#goup i{
 .contactMe{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
+
+.about .moto, .about .data, .skills, .projects{
+    animation-name: Appearing;
+    animation-timeline: view(10% 0%);
+}
+
+@keyframes Appearing {
+    from{
+        opacity: 0.2;
+        transform: translateY(20vw) scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0) scale(1);
+    }
+}
