@@ -226,4 +226,18 @@
     .projects .links i{
         font-size: 2em;
     }
+
+    .App .moto, .App .data, .App .projectCard, .App .mySkills{
+        animation-name: appearingUp;
+        animation-timeline: view(80% 0%);
+    }
+
+    .cdetails{
+        margin-top: 3vh;
+    }
+
+    .projects hr, .skills hr, .contact hr{
+        animation-name: spread;
+        animation-timeline: view(65% 0%);
+    }
 }

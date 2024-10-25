@@ -47,3 +47,62 @@ a#goup i{
         transform: translate(0) scale(1);
     }
 }
+
+.about hr{
+    animation-name: onLoad;
+    animation-duration: 1s;
+    animation-range-start: view();
+    animation-fill-mode: forwards;
+}
+
+.projects hr, .skills hr, .contact hr{
+    animation-name: spread;
+    animation-timeline: view(25% 0%);
+}
+
+@keyframes spread{
+    from{
+        width: 4vw;
+        margin-left: 48vw;
+        align-items: center;
+        justify-content: center;
+    }
+    to{
+        width: 90vw;
+        align-items: center;
+        margin-left: 5vw;
+        justify-content: center;
+    }
+}
+
+@keyframes onLoad{
+    from{
+        width: 90vw;
+        opacity: 0.5;
+        margin-left: 5vw;
+    }
+    to{
+        opacity: 1;
+        width: 8vw;
+        margin-left: 46vw;
+    }
+}
+
+.App .socials{
+    animation-name: pop;
+    animation-fill-mode: forwards;
+    animation-range-start: view();
+    animation-duration: 0.7s;
+}
+
+@keyframes pop{
+    0%{
+        transform: scale(0.9) translateY(10px);
+    }
+    55%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: scale(1) translateY(0);
+    }
+}
