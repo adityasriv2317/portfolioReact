@@ -5,7 +5,7 @@ import './intro.css'
 const intro = ({myName}) => {
 
   function openInNewTab(i) {
-    let url = ['https://www.instagram.com', 'https://www.linkedin.com', 'https://www.github.com']
+    let url = ['https://www.instagram.com/shikhar_2317', 'https://in.linkedin.com/in/aditya2317', 'https://github.com/adityasriv2317']
     window.open(url[i])
   }
 
